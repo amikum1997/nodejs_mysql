@@ -1,0 +1,8 @@
+# ignore node module
+weboconnect-server/node_modules
+weboconnect/node_modules
+
+# Ignore ENV
+weboconnect-server/.env
+weboconnect-server/.env.example
+
