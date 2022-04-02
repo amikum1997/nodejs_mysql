@@ -7,7 +7,7 @@ export const initializeDB = () => {
             return err
         }
         if(row.length === 0){
-            console.log('Initializing Database');
+            return;  
         }
     })
 }

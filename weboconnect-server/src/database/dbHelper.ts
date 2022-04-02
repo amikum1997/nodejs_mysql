@@ -2,7 +2,7 @@ import { connection } from ".";
 
 // Returns a connection to the db
 var getConnection = function(callback : any) {
-    connection.getConnection(function(err, conn) {
+    connection.getConnection(function(err:any, conn:any) {
     callback(err, conn);
   });
 };

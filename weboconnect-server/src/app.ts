@@ -5,7 +5,8 @@ import { connection } from "./database";
 
 connection.getConnection(function (err, conn) {
     if (err) {
-        return err
+        console.log(err);
+        return err        
     }
     if (conn) {
         conn.query('USE ' + process.env.SQL_DATABASE, function () {
